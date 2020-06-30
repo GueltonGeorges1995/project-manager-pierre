@@ -1,11 +1,12 @@
 import React from 'react';
-import './style.scss';
+import './assets/scss/style.scss';
 
+import Header from './components/header/Header';
 const App = () => {
     return (
-        <div>
-            
-        </div>
+        <>
+            <Header />
+        </>
     )
 };
 

@@ -1,0 +1,70 @@
+.nav-link {
+    color: #2D3A8C !important;
+}
+a {
+    color: #2D3A8C !important;
+}
+.header-height {
+    height: 100vh;
+}
+nav {
+    z-index: 10 !important;
+}
+h1 {
+    font-size: 3.5rem !important;
+    color:  #2D3A8C;
+    margin-top: 7rem !important;
+}
+h2 {
+    font-size: 2.5rem !important;
+    color: #2D3A8C;
+    
+}
+h2 span {
+    font-weight: bold;
+    color: #F35627;
+}
+
+.button-header-container {
+    margin-top: 3rem;
+}
+
+button {
+    border-radius: 10px !important;
+    border: none;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+button:focus {
+    
+    outline: none !important;
+}
+.start-button {
+    background-color:  #F35627;
+}
+.connexion-button {
+    background-color: #FF9466;
+}
+
+img {
+    max-width: 160% !important;
+}
+
+.backrgound-imageg-header {
+    width: 70rem;
+    height: 100rem;
+    position: absolute;
+    top: 0;
+    right: -350px;
+    background-color: #ffd0b569;
+    transform: rotate(40deg);
+    
+}
+.mt-7 {
+    margin-top: 7rem;
+}
