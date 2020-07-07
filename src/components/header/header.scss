@@ -55,16 +55,19 @@ img {
     max-width: 160% !important;
 }
 
-.backrgound-imageg-header {
-    width: 70rem;
-    height: 100rem;
-    position: absolute;
-    top: 0;
-    right: -350px;
-    background-color: #ffd0b569;
-    transform: rotate(40deg);
-    
-}
+// .backrgound-image-header {
+//     width: 70rem;
+//     height: 100rem;
+//     position: absolute;
+//     top: 0;
+//     right: -350px;
+//     background-color: #ffd0b5;
+//     transform: rotate(45deg); 
+// }
 .mt-7 {
     margin-top: 7rem;
+}
+
+.z-index-5 {
+    z-index: 5 !important;
 }

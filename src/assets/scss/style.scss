@@ -1,4 +1,9 @@
 
+@import'../../../node_modules/@fortawesome/fontawesome-free/scss/brands.scss';
+@import'../../../node_modules/@fortawesome/fontawesome-free/scss/fontawesome.scss';
+@import'../../../node_modules/@fortawesome/fontawesome-free/scss/regular.scss';
+@import'../../../node_modules/@fortawesome/fontawesome-free/scss/solid.scss';
+
 @font-face {
   font-family: 'Roboto';
   src: url('../fonts/Roboto/Roboto-Regular.ttf');
@@ -6,5 +11,14 @@
 
 * {
     font-family: 'Roboto';
-    background-color: #E5E5E5;
+}
+
+.background-header-about {
+    width: 170rem;
+    height: 30rem;
+    background-color: #F35627;
+    position: absolute;
+    top: 800px;
+    right: -600px;
+    transform: rotate(-9deg)
 }
