@@ -26,38 +26,18 @@ const Header = () => {
                     </button>
                     <div className="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
                         <ul className="navbar-nav">
-                            <motion.li 
-                                className="nav-item mx-4"
-                                whileHover={{
-                                    scale: 1.1,
-                                }}
-                                >
+                            <li className="nav-item mx-4">
                                 <a className="nav-link" href="#">Accueil</a>
-                            </motion.li>
-                            <motion.li 
-                                className="nav-item mx-4"
-                                whileHover={{
-                                    scale: 1.1,
-                                }}
-                                >
+                            </li>
+                            <li className="nav-item mx-4">
                                 <a className="nav-link" href="#">A Propos</a>
-                            </motion.li>
-                            <motion.li 
-                                className="nav-item mx-4"
-                                whileHover={{
-                                    scale: 1.1,
-                                }}
-                                >
+                            </li>
+                            <li className="nav-item mx-4">
                                 <a className="nav-link " href="#">Notification</a>
-                            </motion.li>
-                            <motion.li 
-                                className="nav-item mx-4"
-                                whileHover={{
-                                    scale: 1.1,
-                                }}
-                                >
+                            </li>
+                            <li className="nav-item mx-4">
                                 <a className="nav-link " href="#">Rejoins nous</a>
-                            </motion.li>
+                            </li>
                         </ul>
                     </div>
                 </nav>
@@ -70,13 +50,13 @@ const Header = () => {
                                 <motion.button 
                                     className='mr-3 start-button'
                                     whileHover={{
-                                        scale: 1.1
+                                        backgroundColor: '#FFF',
+                                        color: '#F35627'
                                     }}
                                     >Démarrer</motion.button>
                                 <motion.button 
                                     className='connexion-button'
                                     whileHover={{
-                                        scale: 1.1,
                                         backgroundColor: '#F35627',
                                         color: '#fff'
                                     }}
