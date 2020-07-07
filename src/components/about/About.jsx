@@ -5,13 +5,14 @@ const About = () => {
     return (
         <>
             <div className='about-height pt-5'>
-                <h2 className='text-center mt-5'>Manque d'organisation</h2>
-                <div className='container my-5'>
+                <h2 className='text-center mt-5 text-white'>Manque d'organisation</h2>
+                <div className='container my-5 pt-5'>
                     <div className="row">
                         <div className="col">
                             <h4 className='text-center'>Définis ton but</h4>
                             <div className='d-flex justify-content-center align-items-center mt-5'>
-                                <i className="fas fa-arrow-up"></i>
+                                {/* <i className="fas fa-arrow-up"></i> */}
+                                <i class="fas fa-flag-checkered"></i>
                             </div>
                         </div>
                         <div className="col">
