@@ -9,6 +9,7 @@ const App = () => {
     return (
         <div className='overflow-hidden position-relative'>
             <div className='background-header-about'></div>
+            <div className='background-transition'></div>
             <Header />
             <About />
             <Notification />
