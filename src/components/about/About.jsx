@@ -11,7 +11,7 @@ const About = () => {
                         <div className="col">
                             <h4 className='text-center about-subtitle'>Définis ton but</h4>
                             <div className='d-flex justify-content-center align-items-center mt-5'>
-                                <i class="fas fa-flag-checkered"></i>
+                                <i className="fas fa-flag-checkered"></i>
                             </div>
                         </div>
                         <div className="col">
