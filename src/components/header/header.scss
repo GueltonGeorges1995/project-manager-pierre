@@ -46,24 +46,19 @@ button:focus {
 }
 .start-button {
     background-color:  #F35627;
+    border: solid #F35627 2px;
+
 }
 .connexion-button {
-    background-color: #FF9466;
+    background-color: white;
+    border: solid #F35627 2px;
+    color: #F35627;
 }
 
 img {
     max-width: 160% !important;
 }
 
-// .backrgound-image-header {
-//     width: 70rem;
-//     height: 100rem;
-//     position: absolute;
-//     top: 0;
-//     right: -350px;
-//     background-color: #ffd0b5;
-//     transform: rotate(45deg); 
-// }
 .mt-7 {
     margin-top: 7rem;
 }

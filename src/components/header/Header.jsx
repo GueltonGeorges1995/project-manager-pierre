@@ -1,4 +1,6 @@
 import React from 'react';
+import { motion } from 'framer-motion';
+
 import './header.scss';
 import imageHeader from '../../assets/images/project.png';
 
@@ -24,18 +26,38 @@ const Header = () => {
                     </button>
                     <div className="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
                         <ul className="navbar-nav">
-                            <li className="nav-item mx-4">
+                            <motion.li 
+                                className="nav-item mx-4"
+                                whileHover={{
+                                    scale: 1.1,
+                                }}
+                                >
                                 <a className="nav-link" href="#">Accueil</a>
-                            </li>
-                            <li className="nav-item mx-4">
+                            </motion.li>
+                            <motion.li 
+                                className="nav-item mx-4"
+                                whileHover={{
+                                    scale: 1.1,
+                                }}
+                                >
                                 <a className="nav-link" href="#">A Propos</a>
-                            </li>
-                            <li className="nav-item mx-4">
+                            </motion.li>
+                            <motion.li 
+                                className="nav-item mx-4"
+                                whileHover={{
+                                    scale: 1.1,
+                                }}
+                                >
                                 <a className="nav-link " href="#">Notification</a>
-                            </li>
-                            <li className="nav-item mx-4">
+                            </motion.li>
+                            <motion.li 
+                                className="nav-item mx-4"
+                                whileHover={{
+                                    scale: 1.1,
+                                }}
+                                >
                                 <a className="nav-link " href="#">Rejoins nous</a>
-                            </li>
+                            </motion.li>
                         </ul>
                     </div>
                 </nav>
@@ -45,8 +67,20 @@ const Header = () => {
                             <h1>De Nouveaux Projets En Tête ?</h1>
                             <h2 className='mt-4'>Commence les correctements et <span>surtout mène les à bouts !</span></h2>
                             <div className='mt-5 button-header-container'>
-                                <button className='mr-3 start-button'>Démarrer</button>
-                                <button className='connexion-button'>Connexion</button>
+                                <motion.button 
+                                    className='mr-3 start-button'
+                                    whileHover={{
+                                        scale: 1.1
+                                    }}
+                                    >Démarrer</motion.button>
+                                <motion.button 
+                                    className='connexion-button'
+                                    whileHover={{
+                                        scale: 1.1,
+                                        backgroundColor: '#F35627',
+                                        color: '#fff'
+                                    }}
+                                    >Connexion</motion.button>
                             </div>
                         </div>
                         <div className="col-4 z-index-5">
@@ -55,7 +89,6 @@ const Header = () => {
                             </div>
                         </div>
                     </div>
-                    {/* <div className='backrgound-image-header'></div> */}
                 </div>
             </div>  
         </>
