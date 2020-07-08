@@ -50,8 +50,8 @@ const Header = () => {
                                 <motion.button 
                                     className='mr-3 start-button'
                                     whileHover={{
-                                        backgroundColor: '#FFF',
-                                        color: '#F35627'
+                                        backgroundColor: '#841003',
+                                        borderColor: '#841003'
                                     }}
                                     >Démarrer</motion.button>
                                 <motion.button 
