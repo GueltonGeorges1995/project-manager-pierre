@@ -31,7 +31,7 @@ const Notification = () => {
                                 <i className="fas fa-check-circle icon-box-3"></i>
                             </div>
                             <div className='margin-left-notification-3'>
-                                <p className='text-notification-3 m- notification-text-size'>You finished your project ! GGWP !</p>
+                                <p className='text-notification-3 m-0 notification-text-size'>You finished your project ! GGWP !</p>
                             </div>
                         </div>
                     </div>
