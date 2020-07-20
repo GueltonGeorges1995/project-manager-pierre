@@ -4,7 +4,7 @@ import './notification.scss';
 
 const firstAnimationVariants = {
     leftAnimation1: {
-        x: '-20rem',
+        x: '-40rem',
         opacity: 0,
 
         transition: {
@@ -37,7 +37,8 @@ const firstAnimationVariants = {
         opacity: 1,
         transition: {
             y: {
-                duration: 3
+                duration: 3,
+                
             },
             opacity: {
                 duration: 3
@@ -48,11 +49,11 @@ const firstAnimationVariants = {
 
 const secondAnimationVariants = {
     downAnimation2: {
-        y: '8rem',
+        y: '6rem',
         opacity: 1,
         transition: {
             y: {
-                duration: 3
+                duration: 3,
             },
             opacity: {
                 duration: 3
@@ -60,7 +61,7 @@ const secondAnimationVariants = {
         }
     },
     rightAnimation2: {
-        x: '20rem',
+        x: '40rem',
         opacity: 0,
         transition: {
             x: {
@@ -91,7 +92,7 @@ const secondAnimationVariants = {
 
 const thirdAnimationVariants = {
     downAnimation3: {
-        y: '16rem',
+        y: '12rem',
         opacity: 1,
         transition: {
             y: {
@@ -105,7 +106,7 @@ const thirdAnimationVariants = {
         }
     },
     leftAnimation3: {
-        x: '-20rem',
+        x: '-40rem',
         opacity: 0,
         transition: {
             x: {
@@ -158,6 +159,7 @@ const Notification = () => {
     return (
         <>
             <div className="notification-height">
+            <hr/>
                 <div className="container">
                     <h2 className='text-center mt-5'>Reçois des notifications pour te tenir au courant de ton avancement</h2>
                     <div className='mt-5'>

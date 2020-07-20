@@ -4,6 +4,7 @@ import './assets/scss/style.scss';
 import Header from './components/header/Header';
 import About from './components/about/About';
 import Notification from './components/notification/Notification';
+import Footer from './components/footer/Footer';
 
 const App = () => {
     return (
@@ -13,6 +14,7 @@ const App = () => {
             <Header />
             <About />
             <Notification />
+            <Footer />
         </div>
     )
 };

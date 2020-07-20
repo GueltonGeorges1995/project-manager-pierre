@@ -1,5 +1,6 @@
 .notification-height {
-    height: 100vh;
+    height: 60vh;
+   
 }
 
 .icon-box-1 {
@@ -77,4 +78,10 @@
 }
 .notification-text-size {
     font-size: 18px;
+}
+
+hr {
+    background-color: #F35627;
+    height: 1px !important; 
+    // border: 10px !important;
 }

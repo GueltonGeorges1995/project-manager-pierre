@@ -1,0 +1,37 @@
+.footer-height {
+    height: 40vh;
+    background-color: #F5F7FA;
+    overflow: hidden;
+    // margin-top: ;
+}
+
+a {
+    color: #2D3A8C !important;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #F35627 !important;
+    text-decoration: none !important;
+}
+h3 {
+    color: #2D3A8C
+}
+
+.icon-footer {
+    font-size: 1.5rem;
+}
+
+.background-footer {
+    background-color: #fff;
+    position: absolute;
+    top: -180px;
+    left: -20px;
+    width: 150rem;
+    height: 14rem;
+    transform: rotate(-5deg);
+   
+}
+.margin-top-footer {
+    margin-top: 10rem;
+}
